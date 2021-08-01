@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(min(100%, 45rem),1fr));
+    grid-auto-rows: 20rem;
+    align-items: center;
+    margin-top: 10%;
+}
+header {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+}
+.info {
+    padding: 10px 25px;
+}
+.info h1 {
+    font-size: 3em;
+}
+.info p {
+    font-size: 25px;
+    color: gray;
+    line-height: 35px;
+}
+.info button {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(71, 71, 71);
+    padding: 20px;
+    border: none;
+}
+.info button:hover {
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    background-color: rgb(161, 161, 161);
+    transition: all ease-in .5s;
+}
+.img-not-found {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
